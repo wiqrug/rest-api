@@ -38,7 +38,7 @@ public class SurveyService {
     }
 
     public Survey retrieveSurveyById(String surveyId) {
-        //There are 2 ways to do this ( i can imagine one more using JPA & HIBERNATE
+
         //First is loop through predicates and select the one with the matching id
         //Second one is the one i implement, using functional programming
 
